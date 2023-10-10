@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Escape Room</title>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="../libs/jquery.js"></script>
+    
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "../libs/three.module.js"
+            }
+        }
+    </script>
+
+    <script type="module" src="main.js"></script>    
+    
+    <style>
+        body{
+            margin: 0;
+            overflow: hidden; 
+        }
+        #Messages{
+            color:rgb(255, 255, 255);
+            margin: 10px;
+        }
+        #contenedor{
+            background-color: rgb(80, 80, 80);
+            opacity: 0.5;
+            position: absolute; 
+            left: 0%; 
+            top: 93%;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Div which will show statistical information -->
+<div id="Stats-output">
+</div>
+
+<!-- Div which will hold the Output -->
+<div id="WebGL-output">
+</div>
+
+<!-- Div which will hold the messages -->
+<div id="contenedor">
+    <div  id="Messages">
+    </div>
+</div>
+</body>
+</body>
+</body>
+</html>
